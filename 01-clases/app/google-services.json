@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113831837048",
+    "project_id": "sgpv-2024a-sw-gr2",
+    "storage_bucket": "sgpv-2024a-sw-gr2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113831837048:android:c40125beea085534145c8d",
+        "android_client_info": {
+          "package_name": "com.example.a2024aswgr2sgpv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_BvrZ8pIA2CC_SBex_z8pjffEh_lo3ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
