@@ -13,7 +13,7 @@ class Producto (
 
     ){
 
-    private val productoRepository= ProductoRepository(System.getProperty("user.dir")+ "\\src\\main\\kotlin\\data\\Productos.txt")
+    private val productoRepository= ProductoRepository(System.getProperty("user.dir")+ "\\Deber-01\\src\\main\\kotlin\\data\\Productos.txt")
 
     fun guardarProducto(){
         productoRepository.guardarProducto(this)
