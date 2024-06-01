@@ -1,2 +1,1 @@
-1,Supermaxi,098751789,Quicentro,true
-2,Pycca,928722,Reguistro Civil,true
+1,Jugueton,82920201,Rio Coca,false
