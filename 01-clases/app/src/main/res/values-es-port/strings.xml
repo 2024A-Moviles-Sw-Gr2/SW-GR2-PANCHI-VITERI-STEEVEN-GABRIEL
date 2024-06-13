@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="saludo">Esta es la condicion 4</string>
+    <color name="textColor">#FFED0909</color>
 </resources>
