@@ -25,6 +25,7 @@ class FRecyclerViewAdaptadorNombreDescripcion(
             descripcionTextView = view.findViewById(R.id.tv_descripcion)
             likesTextView = view.findViewById(R.id.tv_likes)
             accionButton = view.findViewById(R.id.btn_dar_like)
+            accionButton.setOnClickListener { anadirLikes() }
         }
         fun anadirLikes(){
             numeroLikes = numeroLikes + 1
