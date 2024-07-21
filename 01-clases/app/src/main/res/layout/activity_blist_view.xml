@@ -26,4 +26,5 @@
         app:layout_constraintEnd_toEndOf="@+id/lv_list_view"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/lv_list_view" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
