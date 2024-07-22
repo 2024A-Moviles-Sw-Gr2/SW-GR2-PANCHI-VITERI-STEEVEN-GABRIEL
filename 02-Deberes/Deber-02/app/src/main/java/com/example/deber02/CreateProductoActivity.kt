@@ -52,7 +52,7 @@ class CreateProductoActivity : AppCompatActivity() {
             idtienda
         )
 
-        mostrarSnackbar("Se ha creado la canción ${nombre.text} y el id genero es $idtienda")
+        mostrarSnackbar("Se ha creado el producto  ${nombre.text} y el id genero es $idtienda")
 
 
         //Crear un intent para iniciar Ver Productos
