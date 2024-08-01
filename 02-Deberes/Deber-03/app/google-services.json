@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247989750659",
+    "project_id": "sgpv-deber-03",
+    "storage_bucket": "sgpv-deber-03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247989750659:android:06120c871a3e1abf2ec4b6",
+        "android_client_info": {
+          "package_name": "com.example.a2024aswgr2sgpv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD4AvnjfdA-7Ky3AUtSsfk148bqn7vreo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247989750659:android:6b8fb3974c3552882ec4b6",
+        "android_client_info": {
+          "package_name": "com.example.deber03_sgpv_gr2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD4AvnjfdA-7Ky3AUtSsfk148bqn7vreo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

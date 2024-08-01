@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Deber03SGPVGR2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Personalizaciones para tu tema base -->
+    </style>
+
+    <!-- Aplication theme extending the base theme -->
+    <style name="Theme.Deber03SGPVGR2" parent="Base.Theme.Deber03SGPVGR2">
+        <!-- Personalizaciones adicionales para el tema de la aplicación -->
+    </style>
+</resources>
