@@ -8,18 +8,6 @@
     android:background="@color/bgColor"
     tools:context="@string/saludo">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/saludo"
-        android:textColor="@color/textColor"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btn_ir_intent_explicito"
         android:layout_width="wrap_content"
@@ -72,8 +60,30 @@
         android:text="Sqlite"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludo"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_google_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G. Maps"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.482"
+        tools:layout_editor_absoluteX="37dp" />
 
     <Button
         android:id="@+id/btn_recycler_view"
@@ -83,15 +93,18 @@
         android:text="R. View"
         app:layout_constraintBottom_toTopOf="@+id/btn_sqlite"
         app:layout_constraintEnd_toEndOf="@+id/btn_sqlite"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="@+id/btn_sqlite" />
 
     <Button
-        android:id="@+id/btn_google_maps"
+        android:id="@+id/btn_intent_firebase_ui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="G. Maps"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/textView"
-        tools:layout_editor_absoluteX="9dp" />
+        android:layout_marginTop="28dp"
+        android:text="F. Auth"
+        app:layout_constraintEnd_toEndOf="@+id/btn_google_maps"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_google_maps"
+        app:layout_constraintTop_toBottomOf="@+id/btn_google_maps" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
