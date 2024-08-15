@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "565813410961",
+    "project_id": "sgpv-proyecto-bii",
+    "storage_bucket": "sgpv-proyecto-bii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565813410961:android:373b1cc918864be5e81330",
+        "android_client_info": {
+          "package_name": "com.example.proyecto2b_sgpv_gr2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARDpfja2IOQWV6CEMHYvQYUmuwGS3a3mU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790262167493",
+    "project_id": "examen2b-sgpv-gr2",
+    "storage_bucket": "examen2b-sgpv-gr2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790262167493:android:546d4b8d99a6b8e74d3dac",
+        "android_client_info": {
+          "package_name": "com.example.examen2b_sgpv_gr2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfNhjmrjtrM2FbzG04mM_yYXiGO_q-e-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

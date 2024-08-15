@@ -3,6 +3,8 @@ package com.example.proyecto2b_sgpv_gr2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -12,7 +14,7 @@ import com.google.android.material.appbar.MaterialToolbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.storage.FirebaseStorage
 
-class Resenia : AppCompatActivity() {
+class ReseniaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resenia)
@@ -55,6 +57,11 @@ class Resenia : AppCompatActivity() {
             finish()
         }
 
+        val agregarResenia = findViewById<Button>(R.id.btn_agregar_resenia)
+        agregarResenia.setOnClickListener(){
+            irActividadConVideojuego(NuevaResenia::class.java, videojuego!!)
+            finish()
+        }
 
         val toolbar = findViewById<MaterialToolbar>(R.id.mtb_reseña)
         toolbar.setNavigationOnClickListener {
@@ -75,7 +82,9 @@ class Resenia : AppCompatActivity() {
         adaptador.notifyDataSetChanged()
 
         var mAuth = FirebaseAuth.getInstance()
-
+        if (videojuego!!.resenias.any { it.usuario.nombre == mAuth.currentUser?.displayName.toString() }) {
+            agregarResenia.visibility = View.GONE
+        }
 
     }
 
